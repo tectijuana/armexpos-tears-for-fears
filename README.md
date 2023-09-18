@@ -48,7 +48,8 @@ Título del trabajo:
 Ejercicios ......
 
 Estudiante:
-.......
+Leyva Garay Jocelyn - 21210388 
+
 
 	</p>
 
