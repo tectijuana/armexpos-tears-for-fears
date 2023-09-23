@@ -48,7 +48,12 @@ Título del trabajo:
 Ejercicios ......
 
 Estudiante:
-Leyva Garay Jocelyn - 21210388 
+Leyva Garay Jocelyn #21210388
+Miranda Juarez Paul Emanuel #21210401
+Pompa Retana Brandon Hazael #
+Espinosa Inzunza Fernando Manuel #
+Lopez Rangel Kevin Paul #
+
 
 
 	</p>
