@@ -97,8 +97,7 @@ ENTREGA:
 		• R4 a R6: Son registros de guardado de llamadas.
 		• R7: se utiliza comúnmente como un puntero de marco de pila en el modo Thumb. En el código de 			ensamblaje, puedes ver que después de una llamada a una función, GCC usa R7 para hacer pop a los 		valores en PC en lugar de LR. Esto no significa que R7 se ponga en PC, sino que ambos registros se 		sacan de la pila
 		• R8 - R10: Son registros generales en la arquitectura ARM,  Estos registros son de 32 bits y se 		utilizan para almacenar datos en el procesador,  Los registros R8, R9 y R10 son parte de los 			registros desagrupados que apuntan al mismo registro físico en todos los modos de funcionamiento.
-![](https://pic002.cnblogs.com/images/2012/392443/2012040421074226.jpg)
-		![](![image](https://github.com/tectijuana/armexpos-tears-for-fears/assets/116030889/2c6ba8f1-a927-415e-abc8-2736c6870353)
-)
+		![Descripción de la imagen](https://pic002.cnblogs.com/images/2012/392443/2012040421074226.jpg)
+		
 	</p>
 </pre>
