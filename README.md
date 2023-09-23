@@ -101,9 +101,7 @@ ENTREGA:
 	• R8 - R10: Son registros generales en la arquitectura ARM,  Estos registros son de 32 bits y se utilizan para 
 		almacenar = datos en el procesador,  Los registros R8, R9 y R10 son parte de los registros desagrupados 
 		que apuntan al mismo registro físico en todos los modos de funcionamiento.
+	<img src="[ruta_de_la_imagen.jpg](https://pic002.cnblogs.com/images/2012/392443/2012040421074226.jpg)">
 	
-		
 	</p>
 </pre>
-![](![image](https://github.com/tectijuana/armexpos-tears-for-fears/assets/116030889/4ddf634a-1a7e-49c7-9ec0-00690b8e0c59)
-)
