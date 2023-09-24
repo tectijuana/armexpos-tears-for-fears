@@ -24,7 +24,7 @@ Att. ![](https://img.icons8.com/color/2x/docker.png)
 ![](https://sgi.morelia.tecnm.mx/tecnm.png)
 <pre>
 	<p align=center>
-<img src="https://img.icons8.com/color/2x/docker.png">
+<img src="https://sgi.morelia.tecnm.mx/tecnm.png">
 Tecnológico Nacional de México
 Instituto Tecnológico de Tijuana
 
