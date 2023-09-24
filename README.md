@@ -148,6 +148,5 @@ Lopez Rangel Kevin Paul #21210392
 	
 	</p>
 	
-<img src="![image](https://github.com/tectijuana/armexpos-tears-for-fears/assets/116030889/eb89bf00-d6ae-4d32-8bd2-7ec6051bcbdb)
-">
+<img src="![image](https://github.com/tectijuana/armexpos-tears-for-fears/assets/116030889/eb89bf00-d6ae-4d32-8bd2-7ec6051bcbdb)">
 </pre>
