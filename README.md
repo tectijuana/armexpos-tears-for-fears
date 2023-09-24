@@ -79,14 +79,6 @@ Lopez Rangel Kevin Paul #
 		 cpsr (registro de estado del programa corriendo)
 		y modos priviligeados tienen acceso a
 		 Un particular spsr (registro de estado salvado del programa)
-	
-
-ENTREGA:
-
-	URL del GitHub Classroom, y recuerde arreglar la PORTADA, quitar todos los 
-		elementos extras del templete, acomodarlo bien para su presentación 
-		solo lo necesario.
-
 	</p>
 
 </pre>
@@ -123,6 +115,7 @@ ENTREGA:
 		preservado (guardado) por la función llamada si se espera que mantenga su valor antes y después de la llamada.
 		• Direcciones de Memoria: R4 también se puede utilizar para almacenar direcciones de memoria o desplazamientos en el contexto de 
 		acceso a memoria.
+	
 	• R5: Se utiliza como un registro de propósito general en el procesador ARM. Puede almacenar datos temporales, realizar cálculos y participar
 		en diversas operaciones de procesamiento de datos.
 
