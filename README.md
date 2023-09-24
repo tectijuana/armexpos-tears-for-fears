@@ -20,7 +20,6 @@ Suerte.
 
 
 ------
-![](https://sgi.morelia.tecnm.mx/tecnm.png)
 <pre>
 	<p align=center>
 <img src="https://sgi.morelia.tecnm.mx/tecnm.png">
