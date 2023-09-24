@@ -113,7 +113,7 @@ ENTREGA:
 	• R3: Al igual que los anteriores, es un registro de propósito general que se utiliza para diversas tareas.
 		Argumento y Resultado: En algunas convenciones de llamada a funciones, R3 se emplea para pasar argumentos y para 
 		almacenar resultados.
-
+	</blockquote>
 	Estos registros (R0 al R3) son fundamentales en la programación en ensamblador ARM, ya que son los registros más utilizados
 		para operaciones comunes. Dependiendo del contexto y de las convenciones de llamada a funciones utilizadas en un programa
 		específico, estos registros pueden tener diferentes roles, como argumentos, resultados o registros temporales.
