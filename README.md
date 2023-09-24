@@ -92,45 +92,66 @@ ENTREGA:
 </pre>
 <pre>
 	<p aling=left>
-	Los registros R0 a R6 en ARM son registros de propósito general:
+Los registros <span style="color: blue;">R0</span> a <span style="color: blue;">R6</span> en ARM son registros de propósito general:
 
-	• <span style="color: blue;">R0:</span> Es uno de los registros de propósito general más utilizados en ARM. Puede usarse para almacenar datos
-		temporales y realizar una variedad de operaciones.
-		• Argumento y Resultado: En algunas convenciones de llamada a funciones, R0 se utiliza para pasar argumentos a 
-		funciones y para almacenar el resultado de una función.
+• <span style="color: blue;">R0:</span> Es uno de los registros de propósito general más utilizados en ARM. Puede usarse para almacenar datos
+	temporales y realizar una variedad de operaciones.
+	• Argumento y Resultado: En algunas convenciones de llamada a funciones, <span style="color: blue;">R0</span> se utiliza para pasar argumentos a 
+	funciones y para almacenar el resultado de una función.
 
-	• R1: Al igual que R0, R1 se usa para almacenar datos temporales y realizar operaciones matemáticas y lógicas.
-		• Argumento y Resultado: En algunas convenciones de llamada a funciones, R1 se utiliza para pasar argumentos y para 
-		almacenar resultados.
+• <span style="color: blue;">R1:</span> Al igual que <span style="color: blue;">R0</span>, <span style="color: blue;">R1</span> se usa para almacenar datos temporales y realizar operaciones matemáticas y lógicas.
+	• Argumento y Resultado: En algunas convenciones de llamada a funciones, <span style="color: blue;">R1</span> se utiliza para pasar argumentos y para 
+	almacenar resultados.
 
-	• R2: Se utiliza como un registro de propósito general para manipulación de datos y cálculos.
-		• Argumento y Resultado: En algunas convenciones de llamada a funciones, R2 se usa para pasar argumentos y para
-		almacenar resultados de funciones.
+• <span style="color: blue;">R2:</span> Se utiliza como un registro de propósito general para manipulación de datos y cálculos.
+	• Argumento y Resultado: En algunas convenciones de llamada a funciones, <span style="color: blue;">R2</span> se usa para pasar argumentos y para
+	almacenar resultados de funciones.
 
-	• R3: Al igual que los anteriores, es un registro de propósito general que se utiliza para diversas tareas.
-		Argumento y Resultado: En algunas convenciones de llamada a funciones, R3 se emplea para pasar argumentos y para 
-		almacenar resultados.
+• <span style="color: blue;">R3:</span> Al igual que los anteriores, es un registro de propósito general que se utiliza para diversas tareas. Argumento y 
+	Resultado: En algunas convenciones de llamada a funciones, <span style="color: blue;">R3</span> se emplea para pasar argumentos y para almacenar 
+	resultados.
 
-	Estos registros (R0 al R3) son fundamentales en la programación en ensamblador ARM, ya que son los registros más utilizados
-		para operaciones comunes. Dependiendo del contexto y de las convenciones de llamada a funciones utilizadas en un programa
-		específico, estos registros pueden tener diferentes roles, como argumentos, resultados o registros temporales.
+Estos registros (<span style="color: blue;">R0</span> al <span style="color: blue;">R3</span>) son fundamentales en la programación en ensamblador ARM, ya que son los registros más utilizados
+	para operaciones comunes. Dependiendo del contexto y de las convenciones de llamada a funciones utilizadas en un programa
+	específico, estos registros pueden tener diferentes roles, como argumentos, resultados o registros temporales.
+
+• <span style="color: blue;">R4:</span> se utiliza como un registro de propósito general en el procesador ARM. Puede almacenar datos temporales, realizar cálculos y
+	participar en diversas operaciones de procesamiento de datos.
+	• Argumento y Resultado: En algunas convenciones de llamada a funciones en lenguaje ensamblador ARM, <span style="color: blue;">R4</span> puede utilizarse 
+	para pasar argumentos a una función o para almacenar resultados, dependiendo de la convención específica utilizada en el programa.
+	• Preservación de Registros: En algunas situaciones, especialmente al llamar a funciones o subrutinas, el contenido de <span style="color: blue;">R4</span> puede ser
+	preservado (guardado) por la función llamada si se espera que mantenga su valor antes y después de la llamada.
+	• Direcciones de Memoria: <span style="color: blue;">R4</span> también se puede utilizar para almacenar direcciones de memoria o desplazamientos en el contexto de 
+	acceso a memoria.
+• <span style="color: blue;">R5:</span> Se utiliza como un registro de propósito general en el procesador ARM. Puede almacenar datos temporales, realizar cálculos y participar
+	en diversas operaciones de procesamiento de datos.
+
+• <span style="color: blue;">R6:</span> es un registro de propósito general que se utiliza para almacenar datos temporales, realizar operaciones y, en algunas circunstancias,
+	para pasar argumentos o almacenar resultados de funciones.
+
+• <span style="color: blue;">R7:</span> se utiliza comúnmente como un puntero de marco de pila en el modo Thumb. En el código de 	ensamblaje, 
+	puedes ver que después de una llamada a una función, GCC usa <span style="color: blue;">R7</span> para hacer pop a los valores en PC en lugar de LR. 
+	Esto no significa que <span style="color: blue;">R7</span> se ponga en PC, sino que ambos registros se sacan de la pila
 	
-	• R4 a R6: Son registros de guardado de llamadas.
-	• R7: se utiliza comúnmente como un puntero de marco de pila en el modo Thumb. En el código de 	ensamblaje, 
-		puedes ver que después de una llamada a una función, GCC usa R7 para hacer pop a los valores en PC en lugar de LR. 
-		Esto no significa que R7 se ponga en PC, sino que ambos registros se sacan de la pila
-	• R8 - R10: Los registros R8, R9 y  R10 son parte de los registros desagrupados que apuntan al mismo registro físico en 
-		todos los modos de funcionamiento.
-	• R11: Este registro se puede utilizar para almacenar datos temporales o para realizar cálculos intermedios durante la 
-		ejecución de un programa
-	• R12:  El registro R12 se designa como un registro de uso temporal  Esto significa que se puede utilizar para almacenar 
-		datos temporales o para realizar cálculos intermedios durante la ejecución de un programa
-	• R13: se conoce comúnmente como el registro R13 o SP (Stack Pointer), que es un registro de propósito general utilizado 
-		principalmente para realizar seguimiento y gestión de la pila de llamadas.
-	• R14: se conoce comúnmente como el registro R14 o LR (Link Register), y se utiliza para gestionar las direcciones de 
-		retorno de las subrutinas y funciones.
-	• R15: se conoce como el registro R15 o PC (Program Counter), y es uno de los registros más cruciales en el procesador ARM.
-	<img src="https://pic002.cnblogs.com/images/2012/392443/2012040421074226.jpg">
+• <span style="color: blue;">R8</span> - <span style="color: blue;">R10:</span> Los registros <span style="color: blue;">R8</span>, <span style="color: blue;">R9</span> y <span style="color: blue;">R10</span> son parte de los registros desagrupados que apuntan al mismo registro físico en 
+	todos los modos de funcionamiento.
+	Esto significa que estos registros tienen el mismo valor en todos los modos de ejecución.
 	
-	</p>
+• <span style="color: blue;">R11:</span> Este registro se puede utilizar para almacenar datos temporales o para realizar cálculos intermedios durante la 
+	ejecución de un programa
+	
+• <span style="color: blue;">R12:</span>  El registro <span style="color: blue;">R12</span> se designa como un registro de uso temporal  Esto significa que se puede utilizar para almacenar 
+	datos temporales o para realizar cálculos intermedios durante la ejecución de un programa
+	
+• <span style="color: blue;">R13:</span> se conoce comúnmente como el registro <span style="color: blue;">R13</span> o SP (Stack Pointer), que es un registro de propósito general utilizado 
+	principalmente para realizar seguimiento y gestión de la pila de llamadas.
+	
+• <span style="color: blue;">R14:</span> se conoce comúnmente como el registro <span style="color: blue;">R14</span> o LR (Link Register), y se utiliza para gestionar las direcciones de 
+	retorno de las subrutinas y funciones.
+	
+• <span style="color: blue;">R15:</span> se conoce como el registro <span style="color: blue;">R15</span> o PC (Program Counter), y es uno de los registros más cruciales en el procesador ARM.
+<img src="https://pic002.cnblogs.com/images/2012/392443/2012040421074226.jpg">
+
+</p>
+
 </pre>
