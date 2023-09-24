@@ -144,6 +144,46 @@ Diaz Berumen Maria de los Angeles #21210368
 		
 	• R15: se conoce como el registro R15 o PC (Program Counter), y es uno de los registros más cruciales en el procesador ARM.
 	<img src="https://pic002.cnblogs.com/images/2012/392443/2012040421074226.jpg">
+
+Ejemplo:
+	/*
+Titutlo: Exposicion de registros ARM
+Filename: codigox.s
+Autor: Diaz Berumen Maria de los Angeles
+Date: 23/9/2023
+Descripcion: Suma en ARM
+Imput: -
+Ouptu: Ejemplo de suma
+*/
+.text
+.global  _start
+_start:
+
+main:
+    @ Inicialización de registros
+    MOV R0, #10     @ R0 = 10
+    MOV R1, #20     @ R1 = 20
+
+    @ Suma R0 y R1 y almacena el resultado en R2
+    ADD R2, R0, R1
+
+    @ Llamada a función para imprimir el resultado
+    BL print_result
+
+    @ Salida del programa
+    MOV R7, #1      @ Código de llamada para la salida
+    SWI 0           @ Llamada al sistema para salir
+
+print_result:
+    @ Función para imprimir el resultado
+    @ Entradas: R2 contiene el resultado
+
+    @ Preparar llamada a la función de impresión
+    MOV R0, R2      @ Argumento: el valor a imprimir
+    MOV R7, #4      @ Código de llamada para la impresión
+    SWI 0           @ Llamada al sistema para imprimir
+
+    BX LR           @ Retorno de la función
 	
 	</p>
 <img src="https://i.pinimg.com/originals/9b/89/85/9b89857e916858b774153a4f0c2e1829.gif">
