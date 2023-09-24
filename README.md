@@ -50,7 +50,8 @@ Miranda Juarez Paul Emanuel #21210401
 Pompa Retana Brandon Hazael #21210416
 Espinosa Inzunza Fernando Manuel #21210371
 Lopez Rangel Kevin Paul #21210392
-		
+Marquez Santillan Jose Eduardo #21210395
+Diaz Berumen Maria de los Angeles #21210368		
 
 
 
