@@ -99,20 +99,23 @@ ENTREGA:
 		• Argumento y Resultado: En algunas convenciones de llamada a funciones, R0 se utiliza para pasar argumentos a 
 		funciones y para almacenar el resultado de una función.
 	</blockquote>
+	<blockquote>
 	• R1: Al igual que R0, R1 se usa para almacenar datos temporales y realizar operaciones matemáticas y lógicas.
 		• Argumento y Resultado: En algunas convenciones de llamada a funciones, R1 se utiliza para pasar argumentos y para 
 		almacenar resultados.
-		
+	</blockquote>
+	<blockquote>
 	• R2: Se utiliza como un registro de propósito general para manipulación de datos y cálculos.
-		• Argumento y Resultado: En algunas convenciones de llamada a funciones, R2 se usa para pasar argumentos y para almacenar
-		resultados de funciones.
-		
+		• Argumento y Resultado: En algunas convenciones de llamada a funciones, R2 se usa para pasar argumentos y para
+		almacenar resultados de funciones.
+	</blockquote>
+	<blockquote>
 	• R3: Al igual que los anteriores, es un registro de propósito general que se utiliza para diversas tareas.
 		Argumento y Resultado: En algunas convenciones de llamada a funciones, R3 se emplea para pasar argumentos y para 
 		almacenar resultados.
 
-	Estos registros (R0 al R3) son fundamentales en la programación en ensamblador ARM, ya que son los registros más utilizados para
-		operaciones comunes. Dependiendo del contexto y de las convenciones de llamada a funciones utilizadas en un programa
+	Estos registros (R0 al R3) son fundamentales en la programación en ensamblador ARM, ya que son los registros más utilizados
+		para operaciones comunes. Dependiendo del contexto y de las convenciones de llamada a funciones utilizadas en un programa
 		específico, estos registros pueden tener diferentes roles, como argumentos, resultados o registros temporales.
 		
 	• R4 a R6: Son registros de guardado de llamadas.
