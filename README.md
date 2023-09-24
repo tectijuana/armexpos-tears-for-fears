@@ -18,7 +18,6 @@ No se usan espacios en nombres de archivos, usar los nombres estilo camelCase (p
 
 Suerte.
 
-Att. ![](https://img.icons8.com/color/2x/docker.png)
 
 ------
 ![](https://sgi.morelia.tecnm.mx/tecnm.png)
