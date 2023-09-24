@@ -50,9 +50,10 @@ Registros
 Estudiante:
 Leyva Garay Jocelyn #21210388
 Miranda Juarez Paul Emanuel #21210401
-Pompa Retana Brandon Hazael #
-Espinosa Inzunza Fernando Manuel #
-Lopez Rangel Kevin Paul #
+Pompa Retana Brandon Hazael #21210416
+Espinosa Inzunza Fernando Manuel #21210371
+Lopez Rangel Kevin Paul #21210392
+		
 
 
 
@@ -147,5 +148,5 @@ Lopez Rangel Kevin Paul #
 	
 	</p>
 
-
+<img src="[https://pic002.cnblogs.com/images/2012/392443/2012040421074226.jpg](https://giphy.com/clips/originals-ToMgXTA7WjzBdNNKDb)https://giphy.com/clips/originals-ToMgXTA7WjzBdNNKDb">
 </pre>
