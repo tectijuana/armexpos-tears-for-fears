@@ -45,7 +45,7 @@ Unidad:
 1
 
 Título del trabajo:
-Ejercicios ......
+Registros
 
 Estudiante:
 Leyva Garay Jocelyn #21210388
@@ -86,7 +86,7 @@ Lopez Rangel Kevin Paul #
 <p aling=left>
 	Los registros R0 a R6 en ARM son registros de propósito general:
 
-	• <span style="color: blue;">R0:</span> Es uno de los registros de propósito general más utilizados en ARM. Puede usarse para almacenar datos
+	• <span style="color: blue;">R0:</span>< Es uno de los registros de propósito general más utilizados en ARM. Puede usarse para almacenar datos
 		temporales y realizar una variedad de operaciones.
 		• Argumento y Resultado: En algunas convenciones de llamada a funciones, R0 se utiliza para pasar argumentos a 
 		funciones y para almacenar el resultado de una función.
