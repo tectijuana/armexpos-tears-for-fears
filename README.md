@@ -105,23 +105,24 @@ Lopez Rangel Kevin Paul #21210392
 		resultados.
 
 	Estos registros (R0 al R3) son fundamentales en la programación en ensamblador ARM, ya que son los registros más utilizados
-		para operaciones comunes. Dependiendo del contexto y de las convenciones de llamada a funciones utilizadas en un programa
-		específico, estos registros pueden tener diferentes roles, como argumentos, resultados o registros temporales.
+		para operaciones comunes. Dependiendo del contexto y de las convenciones de llamada a funciones utilizadas en un
+		programa específico, estos registros pueden tener diferentes roles, como argumentos, resultados o registros temporales.
 	
 	• R4: se utiliza como un registro de propósito general en el procesador ARM. Puede almacenar datos temporales, realizar cálculos y
 		participar en diversas operaciones de procesamiento de datos.
 		• Argumento y Resultado: En algunas convenciones de llamada a funciones en lenguaje ensamblador ARM, R4 puede utilizarse 
-		para pasar argumentos a una función o para almacenar resultados, dependiendo de la convención específica utilizada en el programa.
-		• Preservación de Registros: En algunas situaciones, especialmente al llamar a funciones o subrutinas, el contenido de R4 puede ser
-		preservado (guardado) por la función llamada si se espera que mantenga su valor antes y después de la llamada.
-		• Direcciones de Memoria: R4 también se puede utilizar para almacenar direcciones de memoria o desplazamientos en el contexto de 
-		acceso a memoria.
+		para pasar argumentos a una función o para almacenar resultados, dependiendo de la convención específica utilizada en
+		el programa.
+		• Preservación de Registros: En algunas situaciones, especialmente al llamar a funciones o subrutinas, el contenido de R4 
+		puede ser preservado (guardado) por la función llamada si se espera que mantenga su valor antes y después de la llamada.
+		• Direcciones de Memoria: R4 también se puede utilizar para almacenar direcciones de memoria o desplazamientos en el 
+		contexto de acceso a memoria.
 	
-	• R5: Se utiliza como un registro de propósito general en el procesador ARM. Puede almacenar datos temporales, realizar cálculos y participar
-		en diversas operaciones de procesamiento de datos.
+	• R5: Se utiliza como un registro de propósito general en el procesador ARM. Puede almacenar datos temporales, realizar cálculos
+		y participar en diversas operaciones de procesamiento de datos.
 
-	• R6: es un registro de propósito general que se utiliza para almacenar datos temporales, realizar operaciones y, en algunas circunstancias,
-		para pasar argumentos o almacenar resultados de funciones.
+	• R6: es un registro de propósito general que se utiliza para almacenar datos temporales, realizar operaciones y, en algunas
+		circunstancias, para pasar argumentos o almacenar resultados de funciones.
 
 	• R7: se utiliza comúnmente como un puntero de marco de pila en el modo Thumb. En el código de 	ensamblaje, 
 		puedes ver que después de una llamada a una función, GCC usa R7 para hacer pop a los valores en PC en lugar de LR. 
