@@ -60,28 +60,6 @@ Diaz Berumen Maria de los Angeles #21210368
 </pre>
 
 <pre>
-
-	<p align=left>
-	Registros
-
-	ARM tiene 37 registros en total, todos son de 32-bits.
-		 1 dedicado al contador de programa PC
-		 1 dedicado al registro de estado en curso
-		 5 dedicados a salvar el registro de estado de programa
-		 30 registros de propósito general
-		 Sin embargo, estos están dispuestos en varios bancos, con el banco
-	accessible comandado por el modo del procesador. Cada modo puede
-	accesar
-		 Un conjunto particular r0-r12 registros
-		 Uno particular r13 (the stack pointer) y r14 (link register)
-		 r15 (contador de programa)
-		 cpsr (registro de estado del programa corriendo)
-		y modos priviligeados tienen acceso a
-		 Un particular spsr (registro de estado salvado del programa)
-	</p>
-
-</pre>
-<pre>
 <p aling=left>
 <img src="https://brandlogos.net/wp-content/uploads/2020/09/arm-logo.png">
 	Los registros R0 a R6 en ARM son registros de propósito general:
